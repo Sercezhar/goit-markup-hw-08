@@ -1,0 +1,7 @@
+.secondary-title {
+  margin-bottom: 50px;
+
+  @include font-style(700, 36px, 1.16, 0.03em);
+  text-align: center;
+  color: var(--secondary-title-color);
+}
