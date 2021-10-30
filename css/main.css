@@ -441,15 +441,27 @@ body {
   height: 400px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/overlay-mobile.jpg");
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/mobile/hero_mobile.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+@media screen and (min-resolution: 2dppx) {
+  .overlay {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/mobile/hero_mobile-2x.jpg");
+  }
+}
+
 @media screen and (min-width: 768px) {
   .overlay {
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/overlay-tablet.jpg");
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/tablet/hero_tablet.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .overlay {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/tablet/hero_tablet-2x.jpg");
   }
 }
 
@@ -457,7 +469,13 @@ body {
   .overlay {
     max-width: 1600px;
     height: 600px;
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/overlay-desktop.jpg");
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/desktop/hero_desktop.jpg");
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .overlay {
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/hero/desktop/hero_desktop-2x.jpg");
   }
 }
 
@@ -649,7 +667,13 @@ body {
 
 .team-member-card {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .team-member-card {
+    padding-bottom: 30px;
+  }
 }
 
 .team-member-card__title {
@@ -676,6 +700,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.team-social-list__item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .team-social-list__icon {
