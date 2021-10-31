@@ -389,7 +389,7 @@ body {
   }
 }
 
-.nav-menu-button--open:hover {
+.nav-menu-button--open:hover, .nav-menu-button--open:focus {
   fill: var(--accent-color);
 }
 
@@ -399,7 +399,7 @@ body {
   right: 15px;
 }
 
-.nav-menu-button--close:hover {
+.nav-menu-button--close:hover, .nav-menu-button--close:focus {
   fill: var(--accent-color);
 }
 
@@ -1045,7 +1045,7 @@ body {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.backdrop.is-hidden {
+.backdrop--hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -1076,7 +1076,7 @@ body {
   }
 }
 
-.backdrop.is-hidden .backdrop__modal {
+.backdrop--hidden .backdrop__modal {
   transform: translate(-50%, -50%) scale(0.5);
 }
 

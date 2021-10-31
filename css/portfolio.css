@@ -389,7 +389,7 @@ body {
   }
 }
 
-.nav-menu-button--open:hover {
+.nav-menu-button--open:hover, .nav-menu-button--open:focus {
   fill: var(--accent-color);
 }
 
@@ -399,7 +399,7 @@ body {
   right: 15px;
 }
 
-.nav-menu-button--close:hover {
+.nav-menu-button--close:hover, .nav-menu-button--close:focus {
   fill: var(--accent-color);
 }
 

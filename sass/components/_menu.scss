@@ -95,7 +95,8 @@
     display: none;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     fill: var(--accent-color);
   }
 }
@@ -105,7 +106,8 @@
   top: 10px;
   right: 15px;
 
-  &:hover {
+  &:hover,
+  &:focus {
     fill: var(--accent-color);
   }
 }
