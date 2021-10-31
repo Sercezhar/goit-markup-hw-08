@@ -23,10 +23,6 @@
     margin-bottom: 60px;
   }
 
-  @media screen and (min-width: 1200px) {
-    margin-right: 70px;
-  }
-
   &__logo {
     display: block;
     margin-bottom: 20px;
@@ -76,10 +72,6 @@
 .footer-social {
   @media screen and (max-width: 1199px) {
     margin-bottom: 60px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    margin-right: 93px;
   }
 
   &__title {

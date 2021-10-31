@@ -575,12 +575,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .footer-contacts {
-    margin-right: 70px;
-  }
-}
-
 .footer-contacts__logo {
   display: block;
   margin-bottom: 20px;
@@ -632,12 +626,6 @@ body {
 @media screen and (max-width: 1199px) {
   .footer-social {
     margin-bottom: 60px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-social {
-    margin-right: 93px;
   }
 }
 
