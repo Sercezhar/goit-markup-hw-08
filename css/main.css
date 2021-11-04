@@ -323,6 +323,10 @@ body {
   color: var(--accent-color);
 }
 
+.mobile-contacts-list {
+  margin-bottom: 64px;
+}
+
 .mobile-contacts-list__item:not(:last-child) {
   margin-bottom: 32px;
 }
